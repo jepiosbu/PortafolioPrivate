@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Dorsa&display=swap');
+
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 44.7vw;
+  background-image: url('./Imgs/background.jpg');
+  background-size: 100% 100%;
+  font-family: 'Dorsa', sans-serif;
+}
+.cortina{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 44.7vw;
+  backdrop-filter: blur(4px);
+}
+.card{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 2vw;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.576);
+  width: 40vw;
+  height: 40vw;
+  border-radius: 2vw;
+  box-shadow: 0vw 0vw 10vw 0.2vw #B9B8B5;
+  border: 0.1vw solid white;
+}
+.profile{
+  margin: 0;
+  padding: 0;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 1vw;
+  position: relative;
+  left: 2vw;
+  top: 2.5vw;
+  border: 0.1vw solid white;
+}
+.description{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 2.3vw;
+  bottom: 4vw;
+  color: white;
+  font-size: 2vw;
+  letter-spacing: 0.05vw;
+}
+.role{
+  width: 21vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 18vw;
+  bottom: 13vw;
+  color: white;
+  font-size: 1.6vw;
+  letter-spacing: 0.1vw;
+  text-align: justify;
+}
+button{
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 20vw;
+  border: none;
+  border-radius: 1vw;
+  font-size: 3vw;
+  font-family: 'Dorsa', sans-serif;
+  letter-spacing: 0.3vw;
+  height: 4vw;
+  transition: 0.5s;
+}
+.mover
+{
+  position: relative;
+  left: 10vw;
+  bottom: 10vw;
+}
+button:hover{
+
+  transform: scale(1.2);
+  color:white;
+  background-color: black;
+}
+.contain-redes{
+  position: relative;
+  left: 12.3vw;
+  bottom: 7vw;
+  width: 15.8vw;
+  height: 4vw;
+  display: flex;
+  flex-direction: row;
+}
+.redes{
+  position: relative;
+  right: 0.2vw;
+  box-shadow: 0px 0px 10px 1px white;
+  margin: 0;
+  padding: 0;
+  width: 4vw;
+  height: 4vw;
+  margin-right: 2vw;
+  border-radius: 1vw;
+}
+.lenguaje{
+  width: 4vw;
+  height: 4vw;
+  position: relative;
+}
+.html{
+  bottom: 38vw;
+  left: 5vw;
+  animation: lluviahtml 6s infinite linear;
+}
+.css{
+  bottom: 34vw;
+  left: 8vw;
+  animation: lluviacss 6s infinite linear;
+}
+.csharp{
+  bottom: 38vw;
+  left: 11vw;
+  animation: lluviahtml 6s infinite linear;
+}
+.angular{
+  right: 10vw;
+  bottom: 28vw;
+  width: 6vw;
+  animation: lluviaangular 6s infinite linear;
+}
+.js{
+  width: 3vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  bottom: 28vw;
+  left: 4vw;
+  animation: lluviaangular 6s infinite linear;
+}
+.laravel{
+  right: 1vw;
+  bottom: 19vw;
+  animation: lluvialaravel 6s infinite linear;
+}
+.mysql{
+  right: 15vw;
+  bottom: 22vw;
+  animation: lluvialaravel 6s infinite linear;
+}
+.node{
+  left: 50vw;
+  bottom: 35vw;
+  animation: lluviahtml 6s infinite linear;
+}
+.php{
+  left: 41vw;
+  bottom: 30vw;
+  animation: lluviacss 6s infinite linear;
+}
+.psg{
+  left: 49vw;
+  bottom: 28vw;
+  animation: lluviacss 6s infinite linear;
+}
+.python{
+  left: 51vw;
+  bottom: 23vw;
+  animation: lluviaangular 6s infinite linear;
+}
+.react{
+  left: 36vw;
+  bottom: 23vw;
+  animation: lluviaangular 6s infinite linear;
+}
+.sql{
+  left: 36vw;
+  bottom: 18vw;
+  animation: lluvialaravel 6s infinite linear;
+}
+.vue{
+  left: 21vw;
+  bottom: 18vw;
+  animation: lluvialaravel 6s infinite linear;
+}
+@keyframes lluviahtml {
+  0%{
+    transform: rotateZ(-20deg);
+  }
+  5%{
+    transform: rotateZ(20deg);
+  }
+  10%{
+    transform: rotateZ(-20deg);
+  }
+  15%{
+    transform: rotateZ(20deg);
+  }
+  20%{
+    transform: rotateZ(-20deg);
+  }
+  25%{
+    transform: rotateZ(20deg);
+  }
+  30%{
+    transform: rotateZ(-20deg);
+  }
+  35%{
+    transform: rotateZ(20deg);
+  }
+  40%{
+    transform: rotateZ(-20deg);
+  }
+  45%{
+    transform: rotateZ(20deg);
+  }
+  50%{
+    transform: rotateZ(-20deg);
+  }
+  55%{
+    transform: rotateZ(20deg);
+  }
+  60%{
+    transform: rotateZ(-20deg);
+  }
+  65%{
+    transform: rotateZ(20deg);
+  }
+  70%{
+    transform: rotateZ(-20deg);
+  }
+  75%{
+    transform: rotateZ(20deg);
+  }
+  80%{
+    transform: rotateZ(-20deg);
+  }
+  85%{
+    transform: rotateZ(20deg);
+  }
+  90%{
+    transform: rotateZ(-20deg);
+  }
+  95%{
+    transform: rotateZ(20deg);
+  }
+  100%{
+    bottom: 0vw;
+    transform: rotateZ(-20deg);
+  }
+}
+@keyframes lluviacss {
+  0%{
+    transform: rotateZ(-20deg);
+  }
+  5%{
+    transform: rotateZ(20deg);
+  }
+  10%{
+    transform: rotateZ(-20deg);
+  }
+  15%{
+    transform: rotateZ(20deg);
+  }
+  20%{
+    transform: rotateZ(-20deg);
+  }
+  25%{
+    transform: rotateZ(20deg);
+  }
+  30%{
+    transform: rotateZ(-20deg);
+  }
+  35%{
+    transform: rotateZ(20deg);
+  }
+  40%{
+    transform: rotateZ(-20deg);
+  }
+  45%{
+    transform: rotateZ(20deg);
+  }
+  50%{
+    transform: rotateZ(-20deg);
+  }
+  55%{
+    transform: rotateZ(20deg);
+  }
+  60%{
+    transform: rotateZ(-20deg);
+  }
+  65%{
+    transform: rotateZ(20deg);
+  }
+  70%{
+    transform: rotateZ(-20deg);
+  }
+  75%{
+    transform: rotateZ(20deg);
+  }
+  80%{
+    transform: rotateZ(-20deg);
+  }
+  85%{
+    transform: rotateZ(20deg);
+  }
+  90%{
+    transform: rotateZ(-20deg);
+  }
+  95%{
+    transform: rotateZ(20deg);
+  }
+  100%{
+    bottom: -5vw;
+    transform: rotateZ(-20deg);
+  }
+}
+@keyframes lluviaangular {
+  0%{
+    transform: rotateZ(-20deg);
+  }
+  5%{
+    transform: rotateZ(20deg);
+  }
+  10%{
+    transform: rotateZ(-20deg);
+  }
+  15%{
+    transform: rotateZ(20deg);
+  }
+  20%{
+    transform: rotateZ(-20deg);
+  }
+  25%{
+    transform: rotateZ(20deg);
+  }
+  30%{
+    transform: rotateZ(-20deg);
+  }
+  35%{
+    transform: rotateZ(20deg);
+  }
+  40%{
+    transform: rotateZ(-20deg);
+  }
+  45%{
+    transform: rotateZ(20deg);
+  }
+  50%{
+    transform: rotateZ(-20deg);
+  }
+  55%{
+    transform: rotateZ(20deg);
+  }
+  60%{
+    transform: rotateZ(-20deg);
+  }
+  65%{
+    transform: rotateZ(20deg);
+  }
+  70%{
+    transform: rotateZ(-20deg);
+  }
+  75%{
+    transform: rotateZ(20deg);
+  }
+  80%{
+    transform: rotateZ(-20deg);
+  }
+  85%{
+    transform: rotateZ(20deg);
+  }
+  90%{
+    transform: rotateZ(-20deg);
+  }
+  95%{
+    transform: rotateZ(20deg);
+  }
+  100%{
+    bottom: -10vw;
+    transform: rotateZ(-20deg);
+  }
+}
+@keyframes lluvialaravel {
+  0%{
+    transform: rotateZ(-20deg);
+  }
+  5%{
+    transform: rotateZ(20deg);
+  }
+  10%{
+    transform: rotateZ(-20deg);
+  }
+  15%{
+    transform: rotateZ(20deg);
+  }
+  20%{
+    transform: rotateZ(-20deg);
+  }
+  25%{
+    transform: rotateZ(20deg);
+  }
+  30%{
+    transform: rotateZ(-20deg);
+  }
+  35%{
+    transform: rotateZ(20deg);
+  }
+  40%{
+    transform: rotateZ(-20deg);
+  }
+  45%{
+    transform: rotateZ(20deg);
+  }
+  50%{
+    transform: rotateZ(-20deg);
+  }
+  55%{
+    transform: rotateZ(20deg);
+  }
+  60%{
+    transform: rotateZ(-20deg);
+  }
+  65%{
+    transform: rotateZ(20deg);
+  }
+  70%{
+    transform: rotateZ(-20deg);
+  }
+  75%{
+    transform: rotateZ(20deg);
+  }
+  80%{
+    transform: rotateZ(-20deg);
+  }
+  85%{
+    transform: rotateZ(20deg);
+  }
+  90%{
+    transform: rotateZ(-20deg);
+  }
+  95%{
+    transform: rotateZ(20deg);
+  }
+  100%{
+    bottom: -20vw;
+    transform: rotateZ(-20deg);
+  }
+}
